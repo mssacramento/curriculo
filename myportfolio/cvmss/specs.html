@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="_imagens/favicon.ico" type="image/x-icon">
+    <title>Formações</title>
+    <link rel="stylesheet" href="_css/estilo.css" />
+    <link rel="stylesheet" href="_css/specs.css" />
+</head>
+
+<script src="_javascript/funcoes.js"></script>
+
+<body>
+    <div id="interface">
+        <header id="cabecalho">
+            <hgroup>
+                <h1>Maiara Sacramento</h1>
+                <h2>DEV Python & Frontend</h2>
+            </hgroup>
+
+            <img id="icone" src="_imagens/educacao.png" />
+            <nav id="menu">
+                <h1>Menu Principal</h1>
+                <ul>
+                    <li onmouseover="mudafoto('_imagens/python.png')" onmouseout="mudafoto('_imagens/educacao.png')"><a
+                            href="index.html">profissional</a></li>
+                    <li onmouseover="mudafoto('_imagens/educacao.png')" onmouseout="mudafoto('_imagens/educacao.png')">
+                        <a href="specs.html">Acadêmico</a>
+                    </li>
+                    <li onmouseover="mudafoto('_imagens/fotos.png')" onmouseout="mudafoto('_imagens/educacao.png')"><a
+                            href="fotos.html">Curiosidades</a></li>
+                    <li onmouseover="mudafoto('_imagens/multimidia.png')"
+                        onmouseout="mudafoto('_imagens/educacao.png')"><a href="multimidia.html">Produções</a>
+                    </li>
+                    <li onmouseover="mudafoto('_imagens/linkedin.png')" onmouseout="mudafoto('_imagens/educacao.png')">
+                        <a href="meuscontatos.html">Me Contate</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section id="corpo-full">
+
+            <article id="noticia-principal">
+                <header id="cabecalho-artigo">
+                    <hgroup>
+                        <h1>Raio-X Acadêmico</h1>
+                        <h3>Ultima atualização das informações 30 de Abril de 2022</h3>
+                    </hgroup>
+                </header>
+            </article>
+
+            <br /><br />
+            <p>Clique em qualquer área destacada da imagem para ter mais informações sobre a minha formação
+                acadêmica.<br>
+                Cada ponto amarelo te levará a um nova informação.</p>
+
+            <section id="conteudo">
+                <img src="_imagens/carreira.jpg" usemap="#meumapa" />
+                <map name="meumapa">
+                    <area shape="rect" coords="40, 185, 92, 203" href="formacoes.html#q1" target="janela">
+                    <area shape="rect" coords="118, 170, 171, 184" href="formacoes.html#q2" target="janela">
+                    <area shape="rect" coords="198, 154, 250, 169" href="formacoes.html#q3" target="janela">
+                    <area shape="rect" coords="280, 138, 331, 153" href="formacoes.html#q4" target="janela">
+                    <area shape="rect" coords="401, 114, 449, 129" href="formacoes.html#q5" target="janela">
+
+                </map>
+                <iframe src="formacoes.html" name="janela" id="frame-spec"></iframe>
+            </section>
+        </section>
+        <footer id="rodape">
+            <p>Copyright &copy; 2022 - by Maiara Sacramento<br /><br />
+                <a href="https://www.linkedin.com/in/maiara-sacramento-60118092/" target="blank">linkedin -
+                    maiara-sacramento</a><br />
+                <a href="https://www.instagram.com/mssacramento13/" target="blank">Instagram - mssacramento13</a><br />
+                <a href="https://t.me/mssacramento" target="blank">Telegram - @mssacramento </a><br />
+                <a href="https://github.com/mssacramento" target="blank">GitHub - mssacramento </a><br />
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>3

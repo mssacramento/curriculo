@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+ul#album-contatos {
+    width: 900px;
+    margin: 0 auto;
+    padding: 50px;
+
+    list-style: none;
+
+}
+
+ul#album-contatos li {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 1px solid rgb(217, 255, 0);
+    background-color: white;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, .4);
+
+}
+
+ul#album-contatos li span {
+    opacity: 0;
+    color: #ffffff;
+    text-shadow: 1px, 1px, 1px #000000;
+    background-color: rgba(246, 8, 8, 0.3);
+    font-size: 9px;
+    line-height: 370px;
+    padding: 5px;
+}
+
+ul#album-contatos li:hover {
+    -webkit-transform: scale(1.5);
+}
+
+
+
+ul#album-contatos li#f1 {
+    background: url(../_imagens/linkedilogon.png) no-repeat;
+    background-size: 100px 100px;
+    background-color: #ffffff;
+    onClick:
+}
+
+ul#album-contatos li#f2 {
+    background: url(../_imagens/telegram.png) no-repeat;
+    background-size: 100px 100px;
+    background-color: #ffffff;
+}
+
+ul#album-contatos li#f3 {
+    background: url(../_imagens/insta.png) no-repeat;
+    background-size: 100px 100px;
+    background-color: #ffffff;
+}
+
+ul#album-contatos li#f4 {
+    background: url(../_imagens/github.jpg) no-repeat;
+    background-size: 100px 100px;
+    background-color: #ffffff;
+}
+
+ul#album-contatos li#f5 {
+    background: url(../_imagens/gmail.png) no-repeat;
+    background-size: 100px 100px;
+    background-color: #ffffff;
+}
